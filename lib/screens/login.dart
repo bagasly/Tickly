@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:tickly/bloc/login/login_cubit.dart';
-import 'package:tickly/screen/home_screen.dart';
+import 'package:tickly/screens/home_screen.dart';
 import '../utils/routes.dart';
 
 class LoginScreen extends StatefulWidget {

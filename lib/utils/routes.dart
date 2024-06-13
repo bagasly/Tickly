@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tickly/screen/home_screen.dart';
-import 'package:tickly/screen/login.dart';
-import 'package:tickly/screen/register.dart';
+import 'package:tickly/screens/home_screen.dart';
+import 'package:tickly/screens/login.dart';
+import 'package:tickly/screens/register.dart';
 
 MaterialPageRoute _pageRoute(
         {required Widget body, required RouteSettings settings}) =>

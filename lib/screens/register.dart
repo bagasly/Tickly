@@ -89,8 +89,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       labelStyle: const TextStyle(
                         fontSize: 14.0,
                       ),
-                      contentPadding:
-                          const EdgeInsets.symmetric(horizontal: 30.0, vertical: 15),
+                      contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 30.0, vertical: 15),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(15)),
                       floatingLabelStyle: const TextStyle(fontSize: 16.0),
@@ -107,8 +107,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   labelStyle: const TextStyle(
                     fontSize: 14.0,
                   ),
-                  contentPadding:
-                      const EdgeInsets.symmetric(horizontal: 30.0, vertical: 15),
+                  contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 30.0, vertical: 15),
                   border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(15)),
                   floatingLabelStyle: const TextStyle(fontSize: 16.0),
