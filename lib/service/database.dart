@@ -6,7 +6,7 @@ import 'package:firebase_database/firebase_database.dart';
 class DatabaseMethods {
   Future addCategory(Map<String, dynamic> categoryInfoMap, String id) async {
     return await FirebaseFirestore.instance
-        .collection('categories')
+        .collection('myday')
         .doc(id)
         .set(categoryInfoMap);
   }
